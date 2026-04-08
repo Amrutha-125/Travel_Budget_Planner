@@ -23,7 +23,7 @@ A premium, full-stack web application designed for travelers to plan, track, and
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/AmruthaK/travel-budget-planner.git
+    git clone https://github.com/Amrutha-125/travel-budget-planner.git
     cd travel-budget-planner
     ```
 
