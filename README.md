@@ -32,10 +32,7 @@ A premium, full-stack web application designed for travelers to plan, track, and
     npm install
     ```
 
-3.  **Place Assets**
-    Ensure your background image is located at `public/bg.jpeg` for proper path resolution in Vite.
-
-4.  **Run Development Server**
+3.  **Run Development Server**
     ```bash
     npm run dev
     ```
