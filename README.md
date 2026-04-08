@@ -1,16 +1,42 @@
-# React + Vite
+ TravelWise: Budget Planner & Expense Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium, full-stack web application designed for travelers to plan, track, and visualize their trip finances with a futuristic Bento-grid interface.
 
-Currently, two official plugins are available:
+🚀 Overview
+**TravelWise** transforms the way travelers manage their money. Instead of messy spreadsheets, it offers a high-performance dashboard that provides real-time insights into spending habits through elegant glassmorphism UI components and interactive data visualizations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+ Key Features
+* **Intuitive Dashboard**: A centralized overview of total budget, spent amount, and remaining funds using a modern "Bento-card" layout.
+* **Glassmorphism UI**: High-fidelity design utilizing `backdrop-filter` for a premium, frosted-glass aesthetic.
+* **Expense Logging**: Effortlessly log daily expenses with categories like Food, Transport, and Shopping.
+* **Data Visualization**: Interactive reports and pie charts that break down spending by category for better financial clarity.
+* **Auth Flow**: A seamless transition from landing page to protected user views.
 
-## React Compiler
+ 🛠️ Tech Stack
+* Frontend: React.js with Vite for lightning-fast development.
+* Styling: Tailwind CSS for utility-first responsive design.
+* Icons: Lucide-React for clean, consistent iconography.
+* State Management: React Hooks (`useState`, `useEffect`) for dynamic UI updates.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  
+ ⚙️ Installation & Setup
 
-## Expanding the ESLint configuration
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/AmruthaK/travel-budget-planner.git
+    cd travel-budget-planner
+    ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Place Assets**
+    Ensure your background image is located at `public/bg.jpeg` for proper path resolution in Vite.
+
+4.  **Run Development Server**
+    ```bash
+    npm run dev
+    ```
+
